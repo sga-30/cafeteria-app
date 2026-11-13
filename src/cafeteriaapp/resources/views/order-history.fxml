@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="590.0" prefWidth="835.0"
+    xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="cafeteriaapp.resources.controllers.OrderHistoryController">
+   <top>
+      <VBox style="-fx-background-color: #1a1a2e;" BorderPane.alignment="CENTER">
+         <padding><Insets top="14.0" left="20.0" right="20.0" bottom="14.0"/></padding>
+         <Label text="Order History" textFill="WHITE">
+            <font><Font size="22.0"/></font>
+         </Label>
+      </VBox>
+   </top>
+   <center>
+      <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+         <BorderPane.margin><Insets top="10" left="20" right="20" bottom="10"/></BorderPane.margin>
+         <content>
+            <VBox fx:id="ordersContainer" spacing="12">
+               <padding><Insets top="10" bottom="10"/></padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="660.0" prefWidth="907.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteriaapp.resources.controllers.HomeTabController">
+   <center>
+      <VBox prefHeight="294.0" prefWidth="898.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="388.0" prefWidth="898.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane styleClass="shortcut-tile-unselected" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="80.0" right="80.0" top="20.0" />
+                     </GridPane.margin>
+                     <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="154.0" prefWidth="150.0" GridPane.rowIndex="1">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="FILE" size="25">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </FontAwesomeIconView>
+                              <Label alignment="CENTER_RIGHT" text="Menu" textFill="#1a1a2e">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="ARROW_RIGHT" rotate="-43.3" size="15" />
+                           </children>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </GridPane>
+                  <GridPane layoutX="539.0" layoutY="224.0" prefHeight="137.0" prefWidth="368.0" styleClass="shortcut-tile-unselected" GridPane.rowIndex="1">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="154.0" prefWidth="150.0" GridPane.rowIndex="1">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="FILE" size="25">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </FontAwesomeIconView>
+                              <Label alignment="CENTER_RIGHT" text="Menu" textFill="#1a1a2e">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="ARROW_RIGHT" rotate="-43.3" size="15" />
+                           </children>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="80.0" right="80.0" top="20.0" />
+                     </GridPane.margin>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="10.0" styleClass="shortcut-tile-unselected" GridPane.columnIndex="1">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="154.0" prefWidth="150.0" GridPane.rowIndex="1">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="FILE" size="25">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </FontAwesomeIconView>
+                              <Label alignment="CENTER_RIGHT" text="Menu" textFill="#1a1a2e">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <FontAwesomeIconView fill="#1a1a2e" glyphName="ARROW_RIGHT" rotate="-45.0" size="15" strokeLineCap="ROUND">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </FontAwesomeIconView>
+                           </children>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="80.0" right="80.0" top="20.0" />
+                     </GridPane.margin>
+                  </GridPane>
+                  <GridPane fx:id="menuPane" layoutX="10.0" layoutY="204.0" onMouseClicked="#navigateToMenuPage" styleClass="shortcut-tile">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="154.0" prefWidth="150.0" GridPane.rowIndex="1">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <children>
+                              <FontAwesomeIconView fill="WHITE" glyphName="FILE" size="25">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </FontAwesomeIconView>
+                              <Label alignment="CENTER_RIGHT" text="Menu" textFill="WHITE">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <FontAwesomeIconView fill="#fffefe" glyphName="ARROW_RIGHT" rotate="-43.3" size="15" />
+                           </children>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="80.0" right="60.0" top="20.0" />
+                     </GridPane.margin>
+                  </GridPane>
+               </children>
+            </GridPane>
+            <TableView prefHeight="200.0" prefWidth="857.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+                  <TableColumn prefWidth="75.0" text="Column X" />
+              </columns>
+               <padding>
+                  <Insets left="80.0" right="80.0" />
+               </padding>
+            </TableView>
+            <StackPane prefHeight="150.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <VBox prefHeight="143.0" prefWidth="898.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="147.0" prefWidth="898.0" style="-fx-background-color: #1a1a2e;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="greetingsLabel" prefHeight="35.0" prefWidth="318.0" text="Hello George" textFill="WHITE" GridPane.valignment="TOP">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" size="30" strokeLineCap="ROUND">
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </FontAwesomeIconView>
+                        <Label alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="98.0" text="Account balance" textFill="WHITE">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="accountBalanceLabel" alignment="CENTER_RIGHT" layoutX="361.0" layoutY="83.0" prefHeight="26.0" prefWidth="83.0" text="N0.00" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

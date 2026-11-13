@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="590.0" prefWidth="835.0"
+    stylesheets="@../css/styles.css"
+    xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox style="-fx-background-color: #1a1a2e;" BorderPane.alignment="CENTER">
+         <padding><Insets top="14.0" left="20.0" right="20.0" bottom="14.0"/></padding>
+         <Label text="Wallet" textFill="WHITE">
+            <font><Font size="22.0"/></font>
+         </Label>
+      </VBox>
+   </top>
+   <center>
+      <VBox spacing="20" BorderPane.alignment="CENTER">
+         <padding><Insets top="30" left="60" right="60"/></padding>
+         <VBox style="-fx-background-color: #1a1a2e; -fx-background-radius: 16; -fx-padding: 30;" spacing="10">
+            <Label text="Account Balance" textFill="#aaaaaa">
+               <font><Font size="14.0"/></font>
+            </Label>
+            <Label text="Use the Profile tab to top up your wallet." textFill="WHITE">
+               <font><Font size="16.0"/></font>
+            </Label>
+         </VBox>
+         <VBox style="-fx-background-color: white; -fx-background-radius: 12; -fx-padding: 20;" spacing="8">
+            <Label text="How to use your wallet:" style="-fx-font-weight: bold; -fx-font-size: 14px;"/>
+            <Separator/>
+            <Label text="1. Go to Profile tab and enter an amount to top up."/>
+            <Label text="2. Browse the Menu and add items to your cart."/>
+            <Label text="3. Checkout from the Cart tab — your balance will be deducted automatically."/>
+         </VBox>
+      </VBox>
+   </center>
+</BorderPane>
